@@ -1,0 +1,480 @@
+/*CSS Three Star Media */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS reset code */ 
+
+
+.section-vision .container{
+    
+    background: url(../images/vision.jpg) center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 280px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+
+    }
+    
+    body{
+        background-color: white;
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        line-height: 1.5;
+        color: #222;
+    }
+
+    nav .home-nav a:link{
+        color:#222;
+        background: #c78c06;
+        
+     }
+
+    .logo {
+        background-color: #c78c06;
+    }
+    ul li {
+        list-style-type: none;
+        background-color: #222;
+        color: #c78c06;
+        text-align: center;
+    }
+    
+    .container input {
+        display: flex;
+        flex-direction: column;
+        width: 670.4px;
+        height: 32px;
+        
+    }
+    
+    #Email{
+        width: 600px;
+    }
+    
+    #message {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    
+    img{
+        max-width: 100%;
+
+    }
+    
+    main img{
+        width: 764px; 
+        margin-top: 0;
+    
+    }
+    
+    div .container{
+        margin-bottom: 1rem;
+        padding: 0;
+       
+    }
+    
+    header .container {
+        background-color: #000;
+    }
+    .container{
+        padding: 14px;
+    }
+    
+    h1{
+        font-size: 71px;
+        line-height: 106px;
+        font-weight: bold;
+        margin-bottom: 18px;
+    }
+    
+    h2{
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: bold;
+        
+    }
+    
+    h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 0.5rem;
+        padding-bottom: 12px;
+    }
+    
+    h4{
+        margin-left: 0.5rem;
+        
+    }
+    
+
+    .section-team h3{
+        padding-bottom: 0;
+    }
+    
+    .section-contact h3{
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+    
+    .section-team h4{
+        padding-bottom: 14px;
+    }
+    
+    hr {
+        border: 1px solid #c78c06;
+    }
+    .section-about div {
+        background-color: #ffe6ac;
+        margin-bottom: 1rem;
+    }
+    
+    .section-about h2{
+        padding-bottom: 0;
+    }
+    
+    .section-services div {
+
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    
+    .container button{
+        height: 100px;
+        width: 250px;
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 25px;
+        color:#222;
+     } 
+
+    .search-bar button{
+        background-color: #222;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .container .contact{
+        background-color: #222;
+    }
+    .section-contact .contact{
+        color: #c78c06;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        width: 60px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .section-vision .container button{
+        color: white;
+        border-color: #c78c06;
+        grid-row: 5 / span 4;
+        
+    }
+    
+    .button-details {
+        background-color: #222;
+        width: 100px;
+        height: 50px;
+    }
+    
+    
+    .section-services .container button{
+        color:aliceblue;
+    }
+    
+    table, th, td{
+        border: 1px solid #222;
+        height: 50px;
+    }
+    
+    th{
+        background-color: rgb(247, 204, 77);
+    }
+    
+    #one{
+        width: 452px;
+    }
+    
+    #two{
+        width: 226px;
+    }
+    
+    .location h3{
+        margin-top: 20px;
+    }
+    
+    
+    
+    p{
+        margin-bottom: 1em; 
+        font-size: 16px;
+        margin-left: 0.5em;
+        display: grid;
+        grid-row: 4 / span 1;
+    }
+    
+    .section-vision .top-right{
+        grid-row: 2 / span 1;
+    }
+    
+    .section-contact h3{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .logo{
+        background-color: #c78c06;
+    }
+    
+    header .container input{
+        width: 635.7px;
+        height: 40px;
+    }
+    
+    header .container form {
+        display: flex;
+     
+    } 
+    
+    .section-contact .container form #Email{
+        width: 100px;
+    }
+    
+    nav a:link, nav a:visited{
+        font-size: 18px;
+        color: #c78c06;
+        
+        display: block;
+        text-decoration: none; 
+        padding-bottom: 17px;
+        padding-top: 17px;
+        
+    }
+    
+    header .container a{
+        margin-bottom: auto;
+    }
+    
+    .header-welcome{
+        background-image: url(../images/main-banner.jpg);
+        background-size: cover;
+        padding-top: 68px;
+        padding-bottom: 68px;
+    }
+    
+    .header-welcome button{
+        background-color: #c78c06;
+    }
+    
+    .header-welcome .container{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 5%;
+        padding-right:5%;
+        
+    }
+    /* CLASS CODE BEGINNING*/
+    
+    
+        @media screen and (min-width: 760px) {
+            .container{
+                width: 706px;
+                margin: 0 auto;
+            }
+        }
+    /* CLASS CODE END */
+    
+    /* DESKTOP SET UP */
+    
+    @media screen and (min-width: 1200px) {
+    
+        /* header desktop beginning */
+        header .container{ 
+            width: 1168px;
+            padding: 0 39px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .header-welcome{
+            background-image: url(../images/main-banner.jpg);
+            background-size: cover;
+            padding-top: 68px;
+            padding-bottom: 68px;
+            height: 500px;
+        }
+    
+        ul li {
+            list-style-type: none;
+            background-color: #000;
+            color: #c78c06;
+            text-align: center;
+            width: 125px ;
+            margin-top: 15px;
+            
+        }
+    
+        header .container input{
+            width: 200px;
+            height: 31px;
+            display: flex;
+            margin-top: 51px;
+            margin-left: auto;
+            display: flex;
+    
+        }
+    
+        form{
+            display: flex;
+            margin-left: 20px;
+        }
+        
+        .search-bar button{
+            height: 36px;
+            width: 40px;
+            font-size: 25px;
+            background-color: black;
+            align-items: center;
+            margin-left: auto;
+            margin-top: 51px;
+            display: flex;
+            justify-content: center;
+            grid-row: -2 / span 1;
+        }
+        
+        ul{
+            display: flex;
+           
+        }
+        .logo{
+        background-color: black ;
+        margin-right: 50px;
+        margin-left: 0;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        
+        }
+    
+        nav a:link, nav a:visited{
+            font-size: 18px;
+            color: #c78c06;
+            text-decoration: none; 
+            padding-bottom: 17px;
+            padding-top: 17px;
+            margin-top: 25px;
+           
+        }
+    
+        /* header desktop end */
+    
+        /* Star Tree beginning */
+    
+        .header-welcome .container{
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            width: 1020px;
+            height: 510px;
+        }
+    
+        h1{
+            font-size: 81px;
+            line-height: 106px;
+            font-weight: bold;
+            margin-left: 10px ;
+        }
+    
+        .container p{
+            grid-row: 2 / span 1;
+        }
+    
+        /* Star Tree End*/
+    
+        /* ABOUT US SECTION BEGINNING*/
+    
+        .ping-pong img{
+            width: 250px;
+            height: 125px;
+            margin-top: 20px;
+           float: left;
+           margin-left: 20px;
+          
+    
+        }
+    
+    
+        .ping-pong h2{
+            font-size: 24px;
+            line-height: 1.5;
+            font-weight: bold; 
+            
+        }
+    
+        .ping-pong p{
+            font-size: 12px;
+            margin-left: 20px;
+    
+        }
+    
+    
+    }
+    
+    
+    

@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style> 
 
-    <style>
         table, th, td {
             border: 1px solid black;
             border-collapse: collapse;
             padding: 10px;
+
         }
     </style>
 </head>
@@ -19,22 +21,29 @@
     <header>
         <nav>
             <div class="container">
-                <img src="images/logo.png" alt="logo">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li class="home-nav"><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <form>
-                    <input type="search">
-                    <button>
+                <div class="search-bar">
+
+                    <form>
+                        <input type="text" placeholder="Search">
+                        <button>
                         &#128269;
-                    </button>
-                </form>
+                        </button>
+                     </form>
+                </div>     
             </div>  <!-- end container -->
         </nav>
+
+
 
         <div class="header-welcome">
             <div class="container"> 
@@ -45,7 +54,8 @@
                 </p>
 
                 <button> 
-                Connect with Us 
+                Connect with Us &#9654;	
+                
                 </button>
 
             </div> <!-- end container -->
@@ -65,6 +75,7 @@
                         About Us
                     </h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
                 </div>
 
             </div>  <!-- end container -->
@@ -72,23 +83,21 @@
 
         <section class="section-services">
             <div class="container">
-
-                <h2>Our Services</h2>
-                <div class="service-digital">
-                    <img src="images/digital.jpg" alt="person using phone and laptop in an office" title="Digital Transformation"> 
-                    <h3>
+                <div>
+                    <h2>Our Services</h2>
+                    <div style= "background-color: #ffe6ac;">
+                        <img src="images/digital.jpg" alt="person using phone and laptop in an office" title="Digital Transformation"> 
+                        <h3>
                         Digital Transformation
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
-                    </p>
-
-                    <button>
-                        Digital Plans &#8895;
-                    </button>
+                        </h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
+                        </p>
+                        <button type="button" class="button-details"> Digital Plans &#8895;
+                        </button>
+                    </div>
                 </div>
 
-                <div class="service-marketing">
+                <div style="background-color: #ffe6ac;">
                     <img src="images/marketing.jpg" alt="laptop showing graphics" title="Marketing"> 
                     <h3>
                         Marketing
@@ -97,12 +106,12 @@
                         Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
                     </p>
 
-                    <button>
+                    <button type="button" class="button-details">
                         Marketing Plans &#8895;
                     </button>
                 </div>
 
-                <div class="service-video">
+                <div style="background-color: #ffe6ac;">
                     <img src="images/video.jpg" alt="Using a cellphone" title="Video Production"> 
                     <h3>
                         Video Production 
@@ -110,13 +119,12 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
                     </p>
-
-                    <button>
+                    <button type="button" class="button-details">
                         Video Plans &#8895;
                     </button>
                 </div>
 
-                <div class="service-web">
+                <div style="background-color: #ffe6ac;">
                     <img src="images/web.jpg" alt="Phone, pen and a notebook" title="Web Development"> 
                     <h3>
                         Web Development
@@ -125,12 +133,12 @@
                         Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
                     </p>
 
-                    <button>
+                    <button type="button" class="button-details">
                         Web Plans &#8895;
                     </button>
                 </div>
 
-                <div class="service-print">
+                <div style="background-color:#ffe6ac;">
                     <img src="images/print.jpg" alt="Newspaper Stands" title="Print"> 
                     <h3>
                         Print
@@ -139,7 +147,7 @@
                         Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
                     </p>
 
-                    <button>
+                    <button type="button" class="button-details">
                         Print Plans &#8895;
                     </button>
                 </div>
@@ -150,16 +158,16 @@
         <section class="section-vision">
             <div class="container">
 
-                <h3>
+                <h2>
                     Our Vision
-                </h3>
+                </h2>
 
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.
                 </p>
 
              
-                <button>
+                <button type="button" class="button-details">
                     Learn More &#8895;
                 </button>
 
@@ -171,26 +179,26 @@
             <div class="container">
                 <h2>Our Team</h2>
                 <div class="team-jhon">
-                    <img src="images/john.jpg" alt="Person smiling" title="John Doe"> 
-                </div>
-
-                <div class="CEO">
-                    <h3>John Doe</h3>
-                    <h4>CEO and Co-owner</h4>
-
-                    <p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
-                </div>
-
-                <div class="CFO">
-                    <h3>Bob Rite</h3>
-                    <h4>CFO and Co-owner</h4>
-
-                    <p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+                    <div style="background-color:#ffe6ac">
+                         <img src="images/john.jpg" alt="Person smiling" title="John Doe"> 
+                          <h3>John Doe</h3>
+                          <h4>CEO and Co-owner</h4>
+                          <hr class="new">
+                           <p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+                    </div>
                 </div>
                 
                 <div class="team-bob">
-                    <img src="images/bob.jpg" alt="Person with glasses" title="Bob Rite"> 
+
+                    <div style="background-color:#ffe6ac">
+                         <img src="images/bob.jpg" alt="Person with glasses" title="Bob Rite"> 
+                          <h3>Bob Rite</h3>
+                          <h4>CFO and Co-owner</h4>
+                          <hr class="new">
+                          <p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+                     </div>
                 </div>
+               
            
             </div>  <!-- end container -->
         </section>  <!-- end section-team-->
@@ -211,15 +219,9 @@
                         <input type="text" id="email" name="email" value="example@email.com"><br><br>
                         <label for="Message">Message:</label><br>
                         <textarea id="Message" name="message" rows="5" cols="20"> Type Here </textarea><br>
-                        <input type="button" value="Send">
                         
                     </form> 
-                </div>
-
-                <div class="map">
-                    <h3>Location</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44863.11580051551!2d-75.82497464179689!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669950400683!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                    <button type="button" class="contact" value="Send"> Send </button>
                 </div>
 
                 <div class="table">
@@ -232,7 +234,7 @@
                         </tr>
                         <tr>
                           <td>Monday - Friday</td>
-                          <td>9 AM - 5 PM</td>
+                          <td>9 AM - 6 PM</td>
                         </tr>
                         <tr>
                           <td>Saturday - Sunday</td>
@@ -242,16 +244,23 @@
                       </table>
                     
 
-                </div>           
+                </div>   
+
+                <div class="map">
+                    <h3>Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44863.11580051551!2d-75.82497464179689!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669950400683!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>        
            
             </div>  <!-- end container -->
         </section>  <!-- end section-contact-->
     </main>
 
     <footer>
-        <div class="container">
-            <p>© Copyright Three Star Media, 2020</p>
-            <p>All images are taken from Unsplash</p>
+        <div class="container" style="background-color: #222;">
+            <p style="color: #c78c06"> © Copyright Three Star Media, 2020</p>
+            <p style="color: #c78c06"> All images are taken from <u>Unsplash</u>
+            </p>
         </div> <!-- end container-->
 
     </footer>
